@@ -1,0 +1,16 @@
+# version of docker-compose
+version: '2.1'
+# 'services' are equivalent to 'containers'
+services:
+  test-redis:
+    # Use Docker Hub base image 'redis:alpine'
+    image: 'redis:alpine'
+  test-webapp:
+    restart: on-failure
+    volumes:
+      - ./:/usr/src/app
+    build: ./test-webapp
+    command: nodemon -e js,json server.js
+    # Specify an array of ports to map
+    ports:
+      - '80:5000'

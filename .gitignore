@@ -1,0 +1,12 @@
+# Project Directories
+dist/
+coverage/
+.nyc_output/
+node_modules/
+
+# Project Artifacts
+.env
+*.zip
+
+# IDE
+.idea/

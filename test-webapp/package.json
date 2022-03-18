@@ -1,0 +1,19 @@
+{
+  "name": "test_webapp",
+  "version": "1.0.4",
+  "type": "module",
+  "description": "Node.js + Express.js on Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "express": "^4.17.2",
+    "node-fetch": "^3.2.3",
+    "nodemon": "^2.0.15",
+    "redis": "3.1.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
