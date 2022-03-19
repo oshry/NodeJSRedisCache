@@ -2,10 +2,14 @@
 # Node.js and Redis
 nodejs webapp(with auto restart) with redis database for cache
 
-Infrastructure(basically what we have in the docker-compose.yml)
+Infrastructure basic (basically what we have in the docker-compose.yml)
 1. webapp NodeJS container
 2. redis container
 
+Infrastructure nginx load balancer (basically what we have in the docker-compose-nginx.yml)
+1. two webapp NodeJS containers
+2. redis container
+3. nginx load balancer
 
 ## webapp node packages in use 
 1. express - web framework  
