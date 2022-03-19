@@ -5,7 +5,7 @@ nodejs webapp(with auto restart) with redis database for cache
 Infrastructure(basically what we have in the docker-compose.yml)
 1. webapp NodeJS container
 2. redis container
-![](../../../../var/folders/1x/09k1pdss5hd1_w18g65lklm40000gn/T/TemporaryItems/NSIRD_screencaptureui_5eUfrd/Screen Shot 2022-03-18 at 22.09.45.png)
+
 
 ## webapp node packages in use 
 1. express - web framework  
@@ -61,3 +61,7 @@ Infrastructure(basically what we have in the docker-compose.yml)
 **ps -al**
 ###### kill process for testing restart
 /usr/src/app # kill -9 18
+
+
+
+ref: [https://dev.to/marcelkatz/nodejs-and-redis-deployed-in-docker-containers-using-docker-compose-then-load-balancing-the-nodejs-servers-with-nginx-4omc]
